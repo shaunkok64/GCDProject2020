@@ -114,9 +114,9 @@ write.csv(TidyData_Vector, "TidyData_Vector.csv", row.names = FALSE)
 # Create "TidyData 2"
 #
 TidyData_2 <- TidyData_1 %>%
-      group_by(Subject, Activity) %>%
-      summarise_all(list(mean))
-TidyData_2 <- arrange(TidyData_2, Subject, Code)      
+   group_by(Subject, Activity) %>%
+   summarise_all(list(mean, sd))
+TidyData_2 <- arrange(TidyData_2, Subject, Activity)      
 write.csv(TidyData_2, "TidyData_2.csv", row.names = FALSE)
 #
 # End
