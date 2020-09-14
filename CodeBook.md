@@ -107,7 +107,7 @@
       10    SubjectTestTrain_Vector_New      data.frame              564 obs. of 2 variables
       11	   SubjectTrain	                  data.frame	            7352 obs. of  563 variable      
       12	   TidyData_1   	                  data.frame	            10299 obs. of 89 variables
-      13	   TidyData_2     	               data.frame 	            180 obs. of  89 variables
+      13	   TidyData_2     	               data.frame 	            180 obs. of  176 variables
       14    TidyData_Vector                  data.frame              89 obs. of 2 variables         
       15    x_test	                        data.frame	            2947 obs. of  561 variables
       16	   x_train	                        data.frame        	   7352 obs. of  561 variables
